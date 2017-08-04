@@ -67,6 +67,8 @@ var languages = []Language{
 	Language{"CoffeeScript", mExt(".coffee"), coffeeComments},
 
 	Language{"Erlang", mExt(".erl"), erlangComments},
+
+	Language{"VimL", mExt(".vim"), vimComments},
 }
 
 type Commenter struct {
@@ -92,6 +94,7 @@ var (
 	erlangComments = Commenter{`%`, "\000", "\000", false}
 	rubyComments   = Commenter{`#`, "=begin", "=end", false}
 	coffeeComments = Commenter{`#`, "###", "###", false}
+	vimComments    = Commenter{`"`, "\000", "\000", false}
 
 	// TODO support POD and __END__
 	perlComments = Commenter{`#`, "\000", "\000", false}
