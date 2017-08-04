@@ -1,3 +1,17 @@
+# Note
+
+This is a yet another fork of http://git.bytbox.net/sloc
+
+It exists solely because upstream seems dead :/
+
+You can install my own version of sloc with
+
+```console
+$ go got github.com/dmerejkowsky/sloc
+```
+
+Following in the rest of upstream's README
+
 # SLOC - Source Lines Of Code
 
 `sloc` is a simple, do-one-thing-well program to calculate code statistics: the
@@ -29,11 +43,10 @@ the programming/scripting language of your choice.
 
 Install `sloc` with:
 
-    $ go get git.bytbox.net/sloc.git/sloc
+    $ go get github.com/dmerejkowsky/sloc
 
 ## `reposloc`
 
 For graphing amount of code over time (as revealed by a git or mercurial
 repository), a `reposloc` perl script is provided. This is not installable via
 the `go` tool. Consult the man page for usage information.
-
