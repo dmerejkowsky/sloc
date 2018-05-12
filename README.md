@@ -41,10 +41,6 @@ repository with no compilation done.
 You can generate JSON output with the `-json` flag, if that's easy to parse in
 the programming/scripting language of your choice.
 
-Install `sloc` with:
-
-    $ go get github.com/dmerejkowsky/sloc
-
 ## `reposloc`
 
 For graphing amount of code over time (as revealed by a git or mercurial
