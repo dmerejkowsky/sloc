@@ -7,7 +7,7 @@ It exists solely because upstream seems dead :/
 You can install my own version of sloc with
 
 ```console
-$ go get github.com/dmerejkowsky/sloc
+$ go get github.com/dmerejkowsky/sloc/sloc
 ```
 
 Following in the rest of upstream's README
